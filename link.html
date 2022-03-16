@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Horoscope</title>
+</head>
+<body>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form action="" method="post">
+        <p>
+            <label for="link">Enter link</label>
+            <input type="text" name="link">
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+</body>
+</html>

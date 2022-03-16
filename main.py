@@ -57,7 +57,7 @@ def gluing_photo(t, sign):
 
     # Сохраняем гороскоп
     image.save(f'{sign}_horoscope.jpg')
-    
+
 
 # ---------------------- Главная функция ---------------------- #
 def main():
