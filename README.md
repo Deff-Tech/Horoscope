@@ -1,6 +1,4 @@
 # Horoscope
-Данная утилита поможет генерировать 12 картинок с гороскопом для каждого знака зодиака. Запустите файл main.py, и скрипт спарсит гороскоп на сегодняшний день,
-наложит его на красивый фон, добавит картинку знака зодиака и сохранит ее в формате JPG. Каждый день будет новый гороскоп для каждого знака
---------------------------------------------------------
-This utility will help you generate 12 horoscope images for each zodiac sign. Run the file main.py , and the script parses the horoscope for today,
-superimpose it on a beautiful background, add a picture of the zodiac sign and save it in JPG format. Every day there will be a new horoscope for each sign
+Данная утилита поможет генерировать 12 картинок с гороскопом для каждого знака зодиака. Запустите скрипт webapp.py, и он наложит на красивый фон название знака, текст гороскопа и  актуальную дату, а также фото знака. Сохранит все 12 изображений в папку со скриптом, сделано именно так, потому что я выполнял задание, и требование было именно такое. Можно публиковать на сервере, чтобы генерировать гороскоп онлайн, и либо выводить прямо на сайт, либо отдавать боту для автопостинга в соцсетях.
+
+This utility will help you generate 12 horoscope images for each zodiac sign. Run the script webapp.py , and it will superimpose on a beautiful background the name of the sign, the text of the horoscope and the current date, as well as a photo of the sign. It will save all 12 images to a folder with a script, it was done exactly that way, because I was doing a task, and the requirement was exactly that. You can publish it on the server to generate a horoscope online, and either output it directly to the site, or give it to the bot for autoposting in social networks.
